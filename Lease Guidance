@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Guidance Note: Obtaining a Lease on Academy Trust Land</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Source+Sans+3:wght@300;400;600&display=swap');
+
+  :root {
+    --navy: #1A3557;
+    --navy-light: #2a4f7c;
+    --grey: #4A5568;
+    --light-bg: #EEF2F7;
+    --amber: #F57F17;
+    --amber-light: #FFF8E1;
+    --amber-text: #5D4037;
+    --blue-border: #7A9CC0;
+    --green: #2E7D32;
+    --green-light: #E8F5E9;
+    --body: #2D3748;
+    --rule: #CBD5E0;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 400;
+    color: var(--body);
+    background: #F7F9FC;
+    line-height: 1.7;
+    font-size: 15px;
+  }
+
+  .page {
+    max-width: 780px;
+    margin: 0 auto;
+    background: #fff;
+    min-height: 100vh;
+  }
+
+  .doc-header {
+    background: var(--navy);
+    padding: 14px 48px;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+  }
+  .doc-header .org {
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    color: #fff;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+  .doc-header .divider {
+    width: 1px;
+    height: 16px;
+    background: rgba(255,255,255,0.3);
+  }
+  .doc-header .doc-type {
+    font-size: 12px;
+    color: rgba(255,255,255,0.65);
+    letter-spacing: 0.04em;
+  }
+
+  .content {
+    padding: 52px 48px 64px;
+  }
+
+  .title-block {
+    margin-bottom: 36px;
+    padding-bottom: 28px;
+    border-bottom: 2px solid var(--navy);
+  }
+  .title-label {
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--blue-border);
+    margin-bottom: 6px;
+  }
+  h1 {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 26px;
+    font-weight: 700;
+    color: var(--navy);
+    line-height: 1.25;
+    margin-bottom: 4px;
+  }
+
+  .disclaimer {
+    background: var(--light-bg);
+    border-left: 4px solid var(--navy);
+    border-top: 1px solid var(--blue-border);
+    border-bottom: 1px solid var(--blue-border);
+    border-right: 1px solid var(--blue-border);
+    padding: 16px 20px;
+    margin-bottom: 32px;
+    font-style: italic;
+    font-size: 13.5px;
+    color: var(--grey);
+    line-height: 1.65;
+  }
+
+  .intro p {
+    margin-bottom: 14px;
+    color: var(--body);
+    font-size: 14.5px;
+  }
+
+  .callout {
+    background: var(--amber-light);
+    border-left: 4px solid var(--amber);
+    padding: 14px 18px;
+    margin: 24px 0 32px;
+    font-size: 14px;
+    color: var(--amber-text);
+    line-height: 1.6;
+  }
+  .callout strong {
+    color: #E65100;
+  }
+
+  h2 {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 15.5px;
+    font-weight: 700;
+    color: var(--navy);
+    margin: 40px 0 10px;
+    padding-bottom: 8px;
+    border-bottom: 1.5px solid var(--rule);
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+  }
+  h2 .step-num {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    background: var(--navy);
+    color: #fff;
+    border-radius: 50%;
+    font-size: 11px;
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 600;
+    flex-shrink: 0;
+    position: relative;
+    top: 1px;
+  }
+
+  h3 {
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    font-style: italic;
+    color: var(--grey);
+    margin: 18px 0 6px;
+    letter-spacing: 0.02em;
+  }
+
+  .section p {
+    margin-bottom: 12px;
+    font-size: 14.5px;
+    color: var(--body);
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 8px 0 14px 0;
+  }
+  ul li {
+    font-size: 14.5px;
+    color: var(--body);
+    padding: 4px 0 4px 20px;
+    position: relative;
+    line-height: 1.55;
+  }
+  ul li::before {
+    content: '–';
+    position: absolute;
+    left: 0;
+    color: var(--blue-border);
+    font-weight: 600;
+  }
+
+  .ref {
+    font-size: 12px;
+    color: var(--blue-border);
+    font-style: normal;
+    font-weight: 400;
+    margin-left: 2px;
+  }
+
+  .doc-footer {
+    border-top: 1px solid var(--rule);
+    padding: 16px 48px;
+    font-size: 11.5px;
+    color: #9AA5B1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  @media print {
+    body { background: #fff; }
+    .page { box-shadow: none; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <div class="doc-header">
+    <span class="org">Pitch Together Fund</span>
+    <div class="divider"></div>
+    <span class="doc-type">Guidance Note</span>
+  </div>
+
+  <div class="content">
+
+    <div class="title-block">
+      <div class="title-label">Guidance Note</div>
+      <h1>Obtaining a Lease on<br>Academy Trust Land</h1>
+    </div>
+
+    <div class="disclaimer">
+      This guidance has been produced by the Pitch Together Fund to help clubs understand what may be required when entering into discussions with a school about a long-term lease. The approval process itself is governed by the Academy Trust Handbook (ATH), the trust's Funding Agreement, and DfE expectations around land use. Clubs should read this alongside those documents and seek independent legal advice before proceeding.
+    </div>
+
+    <div class="intro">
+      <p>School land, especially playing fields, is publicly funded land held for educational purposes. Academy trusts must therefore follow strict rules before leasing it to a community organisation.</p>
+      <p>The process will vary depending on the nature of the arrangement. Short-term or low-risk use (such as evening or weekend hire) carries fewer requirements than a formal lease granting exclusive possession. However, the moment a trust grants exclusive possession or a longer-term interest, it triggers Secretary of State consent requirements.</p>
+    </div>
+
+    <div class="callout">
+      <strong>Important:</strong> As the Pitch Together Fund requires a long-term lease — ideally over 10 years, with no break clauses — we therefore assume Secretary of State approval will be required in all cases.
+    </div>
+
+    <div class="section">
+      <h2><span class="step-num">1</span> Determine Whether Secretary of State Consent Is Required</h2>
+      <p>Under Schedule 1 of the Academies Act 2010, academy trusts must obtain consent from the Secretary of State (via the DfE) before:</p>
+      <ul>
+        <li>Leasing or granting any interest in playing fields</li>
+        <li>Granting a leasehold interest of any duration to another party <span class="ref">(ATH 2025, para 5.26)</span></li>
+        <li>Granting exclusive use of land</li>
+        <li>Changing the use of land from educational purposes</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2><span class="step-num">2</span> Trust to Conduct Internal Due Diligence</h2>
+      <p>Before anything is agreed, the trust should complete checks across three areas:</p>
+
+      <h3>Land and legal checks</h3>
+      <ul>
+        <li>Confirm land ownership (freehold, leasehold, or DfE-owned)</li>
+        <li>Check any restrictions in the Funding Agreement or land title</li>
+        <li>Ensure the lease will not restrict curriculum delivery or PE provision</li>
+      </ul>
+
+      <h3>Safeguarding and operational checks</h3>
+      <ul>
+        <li>Access routes and hours of use</li>
+        <li>Overlap with school activities</li>
+        <li>Safeguarding controls and supervision arrangements</li>
+      </ul>
+
+      <h3>Financial and value-for-money checks</h3>
+      <ul>
+        <li>Market rent assessment</li>
+        <li>Cost recovery for utilities, maintenance, and wear and tear</li>
+        <li>Whether the arrangement delivers clear benefit to the trust and community</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2><span class="step-num">3</span> Obtain Trust Board Approval</h2>
+      <p>The trust board must formally approve the lease before any approach is made to the DfE. This requires:</p>
+      <ul>
+        <li>Review of the due diligence findings</li>
+        <li>Approval of the principle of granting the lease, confirmed by minuted resolution</li>
+        <li>Confirmation that the arrangement does not compromise educational use</li>
+        <li>Satisfaction that the trust is meeting its obligations as a charity and public body</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2><span class="step-num">4</span> Apply for Secretary of State Consent</h2>
+      <p>The trust must submit a prior approval request to DfE via the customer help portal <span class="ref">(as required under ATH 2025, Part 5)</span>. This will typically include:</p>
+      <ul>
+        <li>Draft lease and site plan</li>
+        <li>Rationale for the lease</li>
+        <li>Evidence that educational use is protected</li>
+        <li>Confirmation of value for money</li>
+        <li>Board minutes and legal advice</li>
+      </ul>
+
+      <h3>The DfE will assess:</h3>
+      <ul>
+        <li>Impact on education and compliance with legislation</li>
+        <li>Whether the trust is protecting public assets</li>
+        <li>Whether the lease is appropriate and proportionate</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2><span class="step-num">5</span> Finalise the Lease</h2>
+      <p>Once consent is granted, the trust's solicitors will prepare the final lease for signature by both the community organisation and the trust as landholder. A record of the consent letter and signed lease must be retained by the trust.</p>
+    </div>
+
+    <div class="section">
+      <h2><span class="step-num">6</span> Ongoing Monitoring</h2>
+      <p>The trust is responsible for ongoing monitoring, including:</p>
+      <ul>
+        <li>Compliance with lease terms</li>
+        <li>Robustness of safeguarding arrangements</li>
+        <li>Periodic review of rent and value</li>
+        <li>Ensuring the field remains available for educational use as required</li>
+      </ul>
+    </div>
+
+  </div>
+
+  <div class="doc-footer">
+    <span>Not legal advice. Read alongside the Academy Trust Handbook, Funding Agreement, and DfE guidance.</span>
+    <span>Pitch Together Fund</span>
+  </div>
+
+</div>
+</body>
+</html>
